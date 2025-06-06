@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsync.a CMakeFiles/sync.dir/sync_manager.cpp.o
+/usr/bin/ranlib libsync.a

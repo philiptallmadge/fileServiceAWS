@@ -1,0 +1,5 @@
+if(EXISTS "/Users/philip_tallmadge/Desktop/git-repos/fileServiceAWS/build/test/sync_tests[1]_tests.cmake")
+  include("/Users/philip_tallmadge/Desktop/git-repos/fileServiceAWS/build/test/sync_tests[1]_tests.cmake")
+else()
+  add_test(sync_tests_NOT_BUILT sync_tests_NOT_BUILT)
+endif()

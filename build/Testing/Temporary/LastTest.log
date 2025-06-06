@@ -1,0 +1,30 @@
+Start testing: Jun 06 15:43 CDT
+----------------------------------------------------------
+1/1 Testing: SyncTest.BasicEquality
+1/1 Test: SyncTest.BasicEquality
+Command: "/Users/philip_tallmadge/Desktop/git-repos/fileServiceAWS/build/test/sync_tests" "--gtest_filter=SyncTest.BasicEquality" "--gtest_also_run_disabled_tests"
+Directory: /Users/philip_tallmadge/Desktop/git-repos/fileServiceAWS/build/test
+"SyncTest.BasicEquality" start time: Jun 06 15:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/philip_tallmadge/Desktop/git-repos/fileServiceAWS/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SyncTest.BasicEquality
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SyncTest
+[ RUN      ] SyncTest.BasicEquality
+[       OK ] SyncTest.BasicEquality (0 ms)
+[----------] 1 test from SyncTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SyncTest.BasicEquality" end time: Jun 06 15:43 CDT
+"SyncTest.BasicEquality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 06 15:43 CDT

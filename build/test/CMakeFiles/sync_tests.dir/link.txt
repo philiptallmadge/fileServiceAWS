@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/sync_tests.dir/test_sync_manager.cpp.o -o sync_tests  ../lib/libgtest_main.a ../client/libsync.a ../lib/libgtest.a
