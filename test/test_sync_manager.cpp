@@ -5,3 +5,7 @@ TEST(SyncTest, BasicEquality) {
     int result = 2 + 2;
     EXPECT_EQ(result, 4);
 }
+Test(SyncTest, Subtraction) {
+    int result = 2 - 2;
+    EXPECT_EQ(result, 0);
+}
