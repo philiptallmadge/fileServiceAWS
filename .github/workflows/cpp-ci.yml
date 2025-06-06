@@ -17,7 +17,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y cmake g++ make
     - name: Clean build directory
       run: rm -rf build
-      
+
     - name: Create build repository
       run: mkdir build
 
@@ -27,4 +27,5 @@ jobs:
     - name: Run tests
       run: | 
         cd build
+        make
         ctest --output-on-failure
